@@ -1,14 +1,11 @@
-#include <iostream>
+#include "test.hpp"
 
-int main() {
-
-std::string test = "test";
-int num1 = 6;
-int num2 = 7;
+static std::string test = "test for variable";
+static int num1 = 4;
+static int num2 = 3;
 
 
-std::cout << test + "\n";
-std::cout << num1 + num2;
-
-
+int add(int num1, int num2) {
+    return num1 + num2;
 };
+
